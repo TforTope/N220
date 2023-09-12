@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intrest Calculator</title>
+  </head>
+  <style>
+    body {
+      background-color: #ffffff;
+    }
+    div {
+      background-color: #dedede;
+      padding: 35px 35px 35px 35px;
+      margin: 10px;
+    }
+    h3 {
+      margin: 0;
+      margin-bottom: 30px;
+    }
+    label {
+      display: inline-block;
+      width: 100px;
+      text-align: right;
+      margin-right: 5px;
+      margin-bottom: 10px;
+    }
+    #calculate {
+      display: inline-block;
+      padding: 5px 5px 5px 5px;
+      background-color: #ff0000;
+      color: #ffffff;
+      border-radius: 10px;
+      border-color: #ff0000;
+      box-shadow: 1px 1px 6px #000000;
+      margin-left: 110px;
+    }
+  </style>
+  <body>
+    <div>
+      <label>Principle</label><input type="number" id="principle" /><br />
+      <label>Intrest Rate</label><input type="number" id="rate" /><br />
+      <label>Time</label><input type="number" id="time" /><br />
+      <input type="button" id="calculate" onclick="calcIntrest()" value="Calculate"/>
+    </div>
+
+    <div id="result">
+      <h3>Your Result</h3>
+      <p id="answer"></p>
+    </div>
+    <script src="hw3.js"></script>
+  </body>
+</html>
