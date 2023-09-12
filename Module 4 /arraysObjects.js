@@ -76,3 +76,18 @@ const friend = {
 friend.hometown="Parsonville"
 document.getElementById('fullName').innerHTML =friend.fullName() + "was born in " + friend.hometown; 
 //freind ['hometowmn']; 
+
+const car ={ 
+    year: 2020,
+  make: "Dodge",
+  model: "Charger",
+  automatic: false,
+  mpg:17,
+  efficiency: function() {
+    return (this.mpg>40);
+  }
+}
+
+document.getElementById('car').innerHTML = "I own a " + car.year + " " + car.make + " " + car.model + "."; 
+
+document.getElementById('gasEff').innerHTML = car.make + " " + car.model + " Efficiency: " + car.efficiency(); 
