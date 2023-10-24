@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1 id="tHead"></h1>
+    </body>
+    <script>
+
+        function add(num1,num2){
+            console.log(num1 + num2);
+        }
+
+        function age(num1){
+
+            console.log("My age is " + num1);
+        }
+        
+        function getArea(length,width){
+            var area = length * width
+            return area
+        }
+        var area1 = getArea(3,5);
+        document.write("the area of the rectangle is " + area1)
+
+        function bmiCalc(weight,height){
+            return weight / (height * height) * 703
+        }
+        var bmiCalc1 = bmiCalc(187,72);
+        document.write("</br> your BMI is " + bmiCalc1);
+        
+    </script>
+</html>
