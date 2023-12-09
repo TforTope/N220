@@ -1,0 +1,97 @@
+.project {
+  background-color: lightgray;
+  border: 1px solid gray;
+  position: relative;
+  margin-bottom: 2rem;
+  line-height: 120%;
+  padding-bottom: 1rem;
+  padding: 1em 1em 1em 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.project h3 {
+  box-sizing: border-box;
+  font-size: 1rem;
+  background-color: darkslategrey;
+  padding: 10px 20px;
+  position: relative;
+  top: -16px;
+  color: white;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  gap: 1em; 
+}
+
+.result {
+  background-color:white;
+  border:1px solid black;
+  margin-top:1em;
+  padding-top:0; 
+  display: none; 
+}
+
+.result h1 {
+  background-color:crimson;
+  color:white;
+  font-weight:bold;
+  padding:10px;
+  margin:0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+table {
+  border: 1px solid gray;
+  border-collapse: collapse;
+  width: 200px;
+}
+
+th,
+td {
+  border: 1px solid gray;
+  padding: 3px;
+}
+
+tr:nth-child(odd) {
+  background-color: rgba(255, 255, 255);
+}
+
+tr:nth-child(even) {
+  background-color: rgb(195, 201, 206);
+}
+
+tr:nth-child(1) {
+  background-color: darkslategray;
+  color: white;
+}
+
+#tail {
+  display: none;
+}
+
+#head {
+  display: none;
+}

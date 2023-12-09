@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Count Change</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="project">
+    <h3>Count Change</h3>
+    <div class="form-group">
+      <label for="grade">change</label>
+      <input type="number" id="change" min="0"/>
+    </div>
+    <button class="button" onclick="countChange()">Count Change</button>
+    <div id="result" class="result">
+      <h1>Result</h1>
+      <table id="table">
+        <tbody id="tbody"><tr><th colspan="2">Grading Scale</th></tr>
+          <tr><th>denomination</th><th>count</th></tr>
+          <tr><td>dollar</td><td id="dollar">0</td></tr>
+          <tr><td>quarter</td><td id="quarter">0</td></tr>
+          <tr><td>dime</td><td id="dime">0</td></tr>
+          <tr><td>nickel</td><td id="nickel">0</td></tr>
+          <tr><td>penny</td><td id="penny">0</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
